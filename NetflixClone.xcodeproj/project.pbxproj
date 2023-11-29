@@ -16,6 +16,9 @@
 		C1F554C12B17CDA000BA3404 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F554C02B17CDA000BA3404 /* UpcomingViewController.swift */; };
 		C1F554C32B17CDB700BA3404 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F554C22B17CDB700BA3404 /* SearchViewController.swift */; };
 		C1F554C52B17CDCD00BA3404 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F554C42B17CDCD00BA3404 /* DownloadsViewController.swift */; };
+		C1F554CC2B17D77200BA3404 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F554CB2B17D77200BA3404 /* CollectionViewTableViewCell.swift */; };
+		C1F554CE2B17EE9800BA3404 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F554CD2B17EE9800BA3404 /* HeroHeaderUIView.swift */; };
+		C1F554D12B17F32500BA3404 /* HeroImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1F554D02B17F32500BA3404 /* HeroImage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		C1F554C02B17CDA000BA3404 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		C1F554C22B17CDB700BA3404 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		C1F554C42B17CDCD00BA3404 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		C1F554CB2B17D77200BA3404 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		C1F554CD2B17EE9800BA3404 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		C1F554D02B17F32500BA3404 /* HeroImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HeroImage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,11 @@
 		C1F554A72B17C7BE00BA3404 /* NetflixClone */ = {
 			isa = PBXGroup;
 			children = (
+				C1F554CA2B17D74600BA3404 /* Managers */,
+				C1F554C92B17D74000BA3404 /* Resources */,
+				C1F554C82B17D72100BA3404 /* Models */,
+				C1F554C62B17D70D00BA3404 /* Views */,
+				C1F554C72B17D71700BA3404 /* ViewModels */,
 				C1F554BD2B17CD5100BA3404 /* Controllers */,
 				C1F554BC2B17C89800BA3404 /* HelperFiles */,
 				C1F554AC2B17C7BE00BA3404 /* MainTabBarViewController.swift */,
@@ -90,6 +101,44 @@
 				C1F554C42B17CDCD00BA3404 /* DownloadsViewController.swift */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C1F554C62B17D70D00BA3404 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C1F554CB2B17D77200BA3404 /* CollectionViewTableViewCell.swift */,
+				C1F554CD2B17EE9800BA3404 /* HeroHeaderUIView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C1F554C72B17D71700BA3404 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		C1F554C82B17D72100BA3404 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C1F554C92B17D74000BA3404 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1F554D02B17F32500BA3404 /* HeroImage.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C1F554CA2B17D74600BA3404 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1F554B52B17C7C000BA3404 /* LaunchScreen.storyboard in Resources */,
+				C1F554D12B17F32500BA3404 /* HeroImage.jpg in Resources */,
 				C1F554B22B17C7C000BA3404 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,6 +214,8 @@
 			files = (
 				C1F554C32B17CDB700BA3404 /* SearchViewController.swift in Sources */,
 				C1F554AD2B17C7BE00BA3404 /* MainTabBarViewController.swift in Sources */,
+				C1F554CC2B17D77200BA3404 /* CollectionViewTableViewCell.swift in Sources */,
+				C1F554CE2B17EE9800BA3404 /* HeroHeaderUIView.swift in Sources */,
 				C1F554C52B17CDCD00BA3404 /* DownloadsViewController.swift in Sources */,
 				C1F554A92B17C7BE00BA3404 /* AppDelegate.swift in Sources */,
 				C1F554AB2B17C7BE00BA3404 /* SceneDelegate.swift in Sources */,
