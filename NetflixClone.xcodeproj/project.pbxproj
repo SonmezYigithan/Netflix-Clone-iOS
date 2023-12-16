@@ -12,6 +12,7 @@
 		C11067332B1A94EC001C597E /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11067322B1A94EC001C597E /* String+Extensions.swift */; };
 		C11667662B19304000AC9101 /* Netflix_2015_N_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C11667652B19304000AC9101 /* Netflix_2015_N_logo.png */; };
 		C11667692B19312D00AC9101 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11667682B19312D00AC9101 /* UIImage+Extensions.swift */; };
+		C149ABA12B2E22D600F91E11 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C149ABA02B2E22D600F91E11 /* SearchResultsViewController.swift */; };
 		C1CA05512B21EA2E00B82B5C /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CA05502B21EA2E00B82B5C /* APIKeys.swift */; };
 		C1CA05532B21F29F00B82B5C /* Tv.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CA05522B21F29F00B82B5C /* Tv.swift */; };
 		C1CA05552B21FF8D00B82B5C /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CA05542B21FF8D00B82B5C /* TitleCollectionViewCell.swift */; };
@@ -39,6 +40,7 @@
 		C11067322B1A94EC001C597E /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		C11667652B19304000AC9101 /* Netflix_2015_N_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Netflix_2015_N_logo.png; sourceTree = "<group>"; };
 		C11667682B19312D00AC9101 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		C149ABA02B2E22D600F91E11 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		C1CA05502B21EA2E00B82B5C /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
 		C1CA05522B21F29F00B82B5C /* Tv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tv.swift; sourceTree = "<group>"; };
 		C1CA05542B21FF8D00B82B5C /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -80,6 +82,25 @@
 				C11067322B1A94EC001C597E /* String+Extensions.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		C149ABA22B2E231400F91E11 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C1F554BE2B17CD7400BA3404 /* HomeViewController.swift */,
+				C1F554C02B17CDA000BA3404 /* UpcomingViewController.swift */,
+				C1F554C22B17CDB700BA3404 /* SearchViewController.swift */,
+				C1F554C42B17CDCD00BA3404 /* DownloadsViewController.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		C149ABA32B2E231800F91E11 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				C149ABA02B2E22D600F91E11 /* SearchResultsViewController.swift */,
+			);
+			name = General;
 			sourceTree = "<group>";
 		};
 		C1F5549C2B17C7BE00BA3404 = {
@@ -129,10 +150,8 @@
 		C1F554BD2B17CD5100BA3404 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C1F554BE2B17CD7400BA3404 /* HomeViewController.swift */,
-				C1F554C02B17CDA000BA3404 /* UpcomingViewController.swift */,
-				C1F554C22B17CDB700BA3404 /* SearchViewController.swift */,
-				C1F554C42B17CDCD00BA3404 /* DownloadsViewController.swift */,
+				C149ABA32B2E231800F91E11 /* General */,
+				C149ABA22B2E231400F91E11 /* Core */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -274,6 +293,7 @@
 				C1F554CE2B17EE9800BA3404 /* HeroHeaderUIView.swift in Sources */,
 				C1F554C52B17CDCD00BA3404 /* DownloadsViewController.swift in Sources */,
 				C1CA05532B21F29F00B82B5C /* Tv.swift in Sources */,
+				C149ABA12B2E22D600F91E11 /* SearchResultsViewController.swift in Sources */,
 				C1F554A92B17C7BE00BA3404 /* AppDelegate.swift in Sources */,
 				C1F554AB2B17C7BE00BA3404 /* SceneDelegate.swift in Sources */,
 				C11667692B19312D00AC9101 /* UIImage+Extensions.swift in Sources */,

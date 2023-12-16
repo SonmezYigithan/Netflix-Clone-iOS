@@ -9,4 +9,5 @@ import Foundation
 
 struct APIKeys{
     static let Tmdb = ""
+    static let Youtube = ""
 }
